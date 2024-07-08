@@ -88,7 +88,7 @@ export default function RootLayout({
         )}
       >
         
-        <AnimatedCursor />
+        {/* <AnimatedCursor /> */}
           <ThemeProvider attribute="class" defaultTheme="dark">
             <TooltipProvider delayDuration={0}>
                 
