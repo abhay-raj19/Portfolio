@@ -21,7 +21,7 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   const { theme } = useTheme();
   const router = useRouter();
-  
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-8 md:space-y-10">
       <section id="hero">
@@ -29,18 +29,18 @@ export default function Page() {
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-4">
               <div className="flex-row flex flex-1">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-7xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name}`}
-              />
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-2xl font-bold wave tracking-tighter sm:text-5xl xl:text-8xl/none"
-                yOffset={8}
-                text={`👋`}
-              />
+                <BlurFadeText
+                  delay={BLUR_FADE_DELAY}
+                  className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-7xl/none"
+                  yOffset={8}
+                  text={`Hi, I'm ${DATA.name}`}
+                />
+                <BlurFadeText
+                  delay={BLUR_FADE_DELAY}
+                  className="text-2xl font-bold wave tracking-tighter sm:text-5xl xl:text-8xl/none"
+                  yOffset={8}
+                  text={`👋`}
+                />
               </div>
 
               <BlurFadeText
