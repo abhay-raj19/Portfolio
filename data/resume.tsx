@@ -181,7 +181,7 @@ export const DATA = {
           icon: <Icons.source className="size-3" />,
         },
       ],
-      image: "/projects/Chatwithpdf.png",
+      image: "/projects/chatwithpdf.png",
     },
     {
       title: "FitBody",
