@@ -31,13 +31,13 @@ export default function Page() {
               <div className="flex-row flex flex-1">
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
-                  className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-7xl/none"
+                  className="text-2xl pt-2 font-bold tracking-tighter sm:text-5xl xl:text-7xl/none"
                   yOffset={8}
                   text={`Hi, I'm ${DATA.name}`}
                 />
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
-                  className="text-2xl font-bold wave tracking-tighter sm:text-5xl xl:text-8xl/none"
+                  className="text-2xl wave tracking-tighter sm:text-5xl xl:text-8xl/none"
                   yOffset={8}
                   text={`👋`}
                 />

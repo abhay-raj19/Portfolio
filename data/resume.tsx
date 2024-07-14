@@ -6,7 +6,7 @@ export const DATA = {
   location: "Kanpur",
   locationLink: "https://www.google.com/maps/place/kanpur",
   description:
-    "Designing and developing cutting-edge web applications as a full-stack Developer",
+    "Designing and developing cutting-edge web applications as a full-stack developer, and scaling them to their maximum potential.",
   summary:
     "Hi there! As an engineer, I focus on building and designing scalable websites and applications with exceptional user experiences and aesthetic appeal. In my free time, I love hacking up backends servers and testing them heavily.",
   avatarUrl: "/gallery/me.jpeg",

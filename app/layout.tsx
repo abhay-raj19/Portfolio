@@ -7,7 +7,6 @@ import { DATA } from "../data/resume";
 import { cn } from "../lib/util";
 import "./globals.css";
 import Head from "next/head";
-import { AnimatedCursor } from "../components/ui/AnimatedCursor";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -87,7 +86,6 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <AnimatedCursor />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             {children}
