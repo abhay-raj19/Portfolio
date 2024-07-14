@@ -1,6 +1,6 @@
 import { Icons, SkillIcons } from "../components/icons";
 export const DATA = {
-  name: "Abhay Raj",
+  name: "Abhay",
   initials: "",
   url: "https://github.com/abhay-raj19",
   location: "Kanpur",
