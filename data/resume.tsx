@@ -60,7 +60,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Maintainer",
-      logoUrl: "/work/cncf.jpg",
+      logoUrl: "/work/cloudnative.jpg",
       start: "Nov 2023",
       end: "Present",
       description:
@@ -72,7 +72,7 @@ export const DATA = {
       school: "100xDevs",
       href: "https://app.100xdevs.com/",
       degree: "Cohort 2.0",
-      logoUrl: "/edu/100xDevs.jpg",
+      logoUrl: "/edu/devs.jpg",
       start: "2023",
       end: "Present",
     },
